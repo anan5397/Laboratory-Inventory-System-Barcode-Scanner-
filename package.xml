@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>my_py_pkg</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="anan@todo.todo">anan</maintainer>
+  <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>
+  <depend>example_interfaces</depend>
+  <exec_depend>google-auth</exec_depend>
+  <exec_depend>google-api-python-client</exec_depend>
+  <exec_depend>google-auth-httplib2</exec_depend>
+  <exec_depend>google-auth-oauthlib</exec_depend>
+  <exec_depend>gspread</exec_depend>
+  <exec_depend>oauth2client</exec_depend>
+  <exec_depend>python3-evdev</exec_depend>
+
+
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
